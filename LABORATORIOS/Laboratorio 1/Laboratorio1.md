@@ -1,9 +1,5 @@
 # Resumen Laboratorio 1
 
-El flujo general puede resumirse así:
-
-**GitHub → clonar repositorio → trabajar localmente en VS Code → registrar cambios con Git → subirlos nuevamente a GitHub.**
-
 ## 1. Diferencia entre Git y GitHub
 
 ### Git
