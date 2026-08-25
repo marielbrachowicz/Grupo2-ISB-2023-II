@@ -1,6 +1,6 @@
 # Grupo2-ISB-2026-II
 
-Somos estudiantes del curso de **Introducción a Señales Médicas**.  
+Somos estudiantes del curso de **Introducción a Señales Biomédicas**.  
 Este repositorio será utilizado para organizar los laboratorios, documentación y avances del proyecto desarrollados durante el curso.
 
 ## Integrantes
