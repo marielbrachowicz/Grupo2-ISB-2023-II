@@ -10,7 +10,7 @@ Este repositorio será utilizado para organizar los laboratorios, documentación
 | **Abigail Karina Alcazar Vargas** | Estudiante interesada en el análisis de señales médicas y sus aplicaciones en el área de la salud. |
 | **Mariel Andrea Brachowicz Suarez** | Estudiante interesada en el uso de herramientas tecnológicas aplicadas a proyectos biomédicos. |
 | **Julio Alonso Vasquez Tantalean** | Estudiante interesada/o en el procesamiento de señales y el desarrollo de soluciones aplicadas a la salud. |
-| **Ana Paula Vela Velasquez** | Estudiante interesada en procesamiento de señales en el ámbito de dispositivos médicos. |
+| **Ana Paula Vela Velasquez** | Estudiante interesada en dispositivos médicos y el procesamiento de imágenes y señales provenientes de los mismos. |
 
 ## Contenido del repositorio
 
