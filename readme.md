@@ -18,7 +18,7 @@ A lo largo del curso buscamos aprender a trabajar con distintos tipos de señale
 | <div align="center">**Ana Paula Vela Velasquez**<br><br><img src="IMAGENES/AnaPaula.jpeg" width="130"></div> | Estudiante interesada en dispositivos médicos y el procesamiento de imágenes y señales provenientes de los mismos. |
 
 <p align="center">
-  <img src="FotoGrupal.jpeg" alt="Foto grupal" width="700">
+  <img src="IMAGENES/FotoGrupal.jpeg" alt="Foto grupal" width="700">
 </p>
 
 ## Contenido del repositorio
