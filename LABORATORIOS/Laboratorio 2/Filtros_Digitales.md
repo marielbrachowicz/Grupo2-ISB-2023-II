@@ -1,4 +1,4 @@
-# Procesamiento Digital de Señales — Filtros digitales
+# Filtros digitales
 
 ## 1. Idea principal
 
