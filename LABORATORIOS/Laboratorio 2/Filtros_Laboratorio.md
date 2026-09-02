@@ -94,8 +94,9 @@ $$
 
 La frecuencia de Nyquist es:
 
-f_N= 500 Hz
-
+$$
+f_N= 500\ Hz
+$$
 Como 20 Hz y 120 Hz están por debajo de 500 Hz, ambas componentes pueden representarse con este muestreo.
 
 ---
@@ -119,14 +120,14 @@ paso   = 1/fs
 Como:
 
 $$
-f_s=1000
+f_s=1000\ Hz
 $$
 
 entonces:
 
-\[
+$$
 \Delta t=\frac{1}{f_s}=0.001\ s
-\]
+$$
 
 Por tanto, las muestras están separadas por 1 ms.
 
@@ -142,9 +143,9 @@ t = np.arange(0, duración, 1/fs)
 
 La ecuación es:
 
-\[
+$$
 x(t)=\sin(2\pi ft)
-\]
+$$
 
 En Python:
 
@@ -160,9 +161,9 @@ x1 = np.sin(2*np.pi*f1*t)
 
 Como `f1 = 120`:
 
-\[
+$$
 x_1(t)=\sin(2\pi120t)
-\]
+$$
 
 ## Segunda señal
 
@@ -172,9 +173,9 @@ x2 = np.sin(2*np.pi*f2*t)
 
 Como `f2 = 20`:
 
-\[
+$$
 x_2(t)=\sin(2\pi20t)
-\]
+$$
 
 ---
 
@@ -186,17 +187,17 @@ x3 = x1 + x2
 
 Matemáticamente:
 
-\[
+$$
 x_3(t)=x_1(t)+x_2(t)
-\]
+$$
 
 Por tanto:
 
-\[
+$$
 x_3(t)=
 \sin(2\pi120t)+
 \sin(2\pi20t)
-\]
+$$
 
 La señal `x3` contiene dos componentes:
 
@@ -288,9 +289,9 @@ plt.plot(t, x3)
 
 Representa:
 
-\[
+$$
 x(t)
-\]
+$$
 
 Muestra cómo cambia la amplitud con el tiempo.
 
@@ -335,13 +336,13 @@ scale="dB"
 
 Muestra la magnitud en decibeles.
 
-El PDF también convierte magnitudes a dB mediante:
+Se convierte magnitudes a dB mediante:
 
 ```python
 20*np.log10(mag)
 ```
 
-en el análisis de respuesta en frecuencia. fileciteturn1file1L86-L100
+en el análisis de respuesta en frecuencia.
 
 ---
 
@@ -384,7 +385,7 @@ Por ejemplo, un low-pass puede conservar la componente de baja frecuencia y aten
 
 # 11. Tipos de filtros
 
-El PDF clasifica los filtros según su respuesta frecuencial. 
+Se clasifican los filtros según su respuesta frecuencial. 
 
 ### Low-pass / pasa bajas
 
@@ -404,7 +405,6 @@ Deja pasar altas y atenúa bajas.
 120 Hz  → pasa
 ```
 
-El PDF describe el high-pass como un filtro que elimina bajas frecuencias y deja pasar altas. 
 
 ### Band-pass / pasa banda
 
@@ -418,7 +418,7 @@ Rechaza una banda específica.
 
 # 12. Conexión con respuesta en frecuencia
 
-El PDF introduce la respuesta en frecuencia mediante:
+Se introduce la respuesta en frecuencia mediante:
 
 - magnitud
 - fase 
@@ -453,9 +453,9 @@ wc = 2*np.pi*fc
 
 convierte Hz a frecuencia angular:
 
-\[
+$$
 \omega_c=2\pi f_c
-\]
+$$
 
 ```python
 num = wc
@@ -474,7 +474,7 @@ crea el sistema.
 
 # 13. Calcular la respuesta en frecuencia
 
-El PDF usa:
+Se usa:
 
 ```python
 w, H = signal.freqresp(h_s)
@@ -539,9 +539,9 @@ b = h_d.num
 
 Primero:
 
-\[
+$$
 T_s=\frac{1}{f_s}
-\]
+$$
 
 Luego:
 
@@ -557,11 +557,11 @@ Los coeficientes `a` y `b` permiten implementar la ecuación en diferencias del 
 
 # 15. Convolución
 
-El PDF presenta la convolución como base del filtrado.
+Se presenta la convolución como base del filtrado.
 
-\[
+$$
 y[n]=x[n]*h[n]
-\]
+$$
 
 donde:
 
@@ -721,7 +721,7 @@ y        → señal filtrada
 
 # 21. Polos y ceros
 
-El PDF usa:
+Se usa:
 
 ```python
 z, p, k = signal.tf2zpk(b, a)
