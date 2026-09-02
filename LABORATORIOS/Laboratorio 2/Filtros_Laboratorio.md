@@ -96,8 +96,6 @@ f_N= 500 Hz
 
 Como 20 Hz y 120 Hz están por debajo de 500 Hz, ambas componentes pueden representarse con este muestreo.
 
-El PDF utiliza igualmente `fs = 1e3` en el ejemplo de conversión de un filtro analógico a uno discreto. 
-
 ---
 
 # 4. Crear el eje de tiempo
@@ -118,15 +116,11 @@ paso   = 1/fs
 
 Como:
 
-\[
 f_s=1000
-\]
 
 entonces:
 
-\[
-\Delta t=\frac{1}{f_s}=0.001\ s
-\]
+Delta t =0.001 s
 
 Por tanto, las muestras están separadas por 1 ms.
 
