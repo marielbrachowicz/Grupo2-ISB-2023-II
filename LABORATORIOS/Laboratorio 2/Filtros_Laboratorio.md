@@ -88,15 +88,11 @@ La frecuencia de muestreo indica cuántas muestras tomamos por segundo.
 
 En el ejemplo:
 
-\[
-f_s=1000\ Hz
-\]
+f_s=1000 Hz
 
 La frecuencia de Nyquist es:
 
-\[
-f_N=\frac{f_s}{2}=500\ Hz
-\]
+f_N= 500 Hz
 
 Como 20 Hz y 120 Hz están por debajo de 500 Hz, ambas componentes pueden representarse con este muestreo.
 
