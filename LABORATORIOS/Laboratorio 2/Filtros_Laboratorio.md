@@ -122,9 +122,9 @@ paso   = 1/fs
 
 Como:
 
-\[
+$$
 f_s=1000
-\]
+$$
 
 entonces:
 
